@@ -1,3 +1,5 @@
+Solution: https://codepen.io/ibrahimdeniz/pen/rNmLgWX?editors=0100
+
 CHAPTER 4: FLEXBOX GRID PROTOTYPE
 
 This example should look familiar to you - we coded it several times in the original layouts course.
