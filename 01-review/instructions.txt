@@ -1,3 +1,5 @@
+My Solutions : https://codepen.io/ibrahimdeniz/pen/JjNKBvv
+
 CHAPTER 1: WARM UP EXERCISE
 
 To get those juices flowing for CSS layouts, look at the image in this folder or online: https://s3-us-west-2.amazonaws.com/s.cdpn.io/3273620/grid1.png
