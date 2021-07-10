@@ -15,7 +15,9 @@ main {
 section,
 #inside article,
 #inside aside,
-#devs li {
+#devs li,
+#table article,
+#table aside {
   --width: 16;
   --gap-constant: 0.3%;
   --initialbasis: calc(var(--width, 0) / var(--columns, 16) * 100%);
@@ -73,6 +75,12 @@ section,
   #inside aside {
     --width: 4;
   }
+  #table article {
+    --width: 7;
+  }
+  #table aside {
+    --width: 4;
+  }
 }
 @media (min-width: 950px) {
   /* keep our math working, move 3rd column to bottom */
@@ -96,6 +104,13 @@ section,
   #inside aside {
     --width: 4;
   }
+
+  #table article {
+    --width: 14;
+  }
+  #table aside {
+    --width: 14;
+  }
 }
 @media (min-width: 1200px) {
   #devs ul {
@@ -117,6 +132,12 @@ section,
     --width: 12;
   }
   #inside aside {
+    --width: 4;
+  }
+  #table article {
+    --width: 12;
+  }
+  #table aside {
     --width: 4;
   }
 }
