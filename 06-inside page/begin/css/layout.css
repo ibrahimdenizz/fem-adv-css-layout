@@ -13,7 +13,9 @@ main {
   --columns: 16;
 }
 section,
-#devs li {
+#devs li,
+#inside article,
+#inside aside {
   --width: 16;
   --gap-constant: 0.3%;
   --initialbasis: calc(var(--width, 0) / var(--columns, 16) * 100%);
@@ -57,6 +59,13 @@ section,
     order: 4;
   }
 
+  #inside article {
+    --width: 7;
+  }
+  #inside aside {
+    --width: 4;
+  }
+
   .floatleft {
     float: left;
     margin: 0 1rem 1rem 0;
@@ -82,6 +91,12 @@ section,
     --width: 3;
     order: 3;
   }
+  #inside article {
+    --width: 10;
+  }
+  #inside aside {
+    --width: 4;
+  }
 }
 @media (min-width: 1200px) {
   #devs ul {
@@ -98,5 +113,11 @@ section,
   #resources {
     --width: 3;
     order: 4;
+  }
+  #inside article {
+    --width: 12;
+  }
+  #inside aside {
+    --width: 4;
   }
 }
