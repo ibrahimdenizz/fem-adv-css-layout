@@ -71,51 +71,64 @@
         <form>
           <fieldset>
             <legend>Your contact information</legend>
-            <label for="name">Your name </label>
-            <input type="text" id="name" autofocus />
-            <label for="phone">Phone number</label>
-            <input
-              type="tel"
-              id="phone"
-              placeholder="Don't forget the area code!"
-            />
-            <label for="email">Email</label>
-            <input type="email" id="email" />
+            <div class="container">
+              <label for="name">Your name </label>
+              <input type="text" id="name" autofocus />
+            </div>
+            <div class="container">
+              <label for="phone">Phone number</label>
+              <input
+                type="tel"
+                id="phone"
+                placeholder="Don't forget the area code!"
+              />
+            </div>
+            <div class="container">
+              <label for="email">Email</label>
+              <input type="email" id="email" />
+            </div>
           </fieldset>
           <fieldset>
             <legend>About your resource</legend>
-            <p>What kind of resource is it?</p>
-            <div>
-              <label>
-                <input type="radio" name="resource" value="written" checked />
-                Written article
-              </label>
-              <label>
-                <input type="radio" name="resource" value="podcast" /> Podcast
-              </label>
-              <label>
-                <input type="radio" name="resource" value="video" /> Video
-              </label>
-              <label>
-                <input type="radio" name="resource" value="conference" />
-                Conference
-              </label>
-              <label>
-                <input type="radio" name="resource" value="other" /> Some other
-                type
-              </label>
+            <div class="container">
+              <p>What kind of resource is it?</p>
+              <div>
+                <label>
+                  <input type="radio" name="resource" value="written" checked />
+                  Written article
+                </label>
+                <label>
+                  <input type="radio" name="resource" value="podcast" /> Podcast
+                </label>
+                <label>
+                  <input type="radio" name="resource" value="video" /> Video
+                </label>
+                <label>
+                  <input type="radio" name="resource" value="conference" />
+                  Conference
+                </label>
+                <label>
+                  <input type="radio" name="resource" value="other" /> Some
+                  other type
+                </label>
+              </div>
             </div>
-            <label for="rating">How would you rate this resource?</label>
-            <select id="rating">
-              <option selected>Select one...</option>
-              <option value="5star">Amazing, 5 stars</option>
-              <option value="4star">Helpful, 4 stars</option>
-              <option value="3star">OK, 3 stars</option>
-              <option value="2star">Avoid if you can, 2 stars</option>
-              <option value="1star">Pitiful, 1 star</option>
-            </select>
-            <label for="comments">Other details or comments:</label>
-            <textarea id="comments"></textarea>
+            <div class="container">
+              <label for="rating">How would you rate this resource?</label>
+              <select id="rating">
+                <option selected>Select one...</option>
+                <option value="5star">Amazing, 5 stars</option>
+                <option value="4star">Helpful, 4 stars</option>
+                <option value="3star">OK, 3 stars</option>
+                <option value="2star">Avoid if you can, 2 stars</option>
+                <option value="1star">Pitiful, 1 star</option>
+              </select>
+            </div>
+            <div class="container">
+              <label for="comments">Other details or comments:</label>
+              <textarea id="comments"></textarea>
+            </div>
+
             <label>
               <input id="subscribe" type="checkbox" value="subscribe" />Add me
               to your email list
